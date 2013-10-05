@@ -7,6 +7,19 @@
 
 Клиентская часть также пишется на ClojureScript и использует клиентский MVC предоставляемый Ember.ClojureScript
 
+# Установка #
+
+Клонируем репозиторий в свою папку с проектами:
+
+	git clone --depth 2 https://github.com/Chicker/cljs_ember_tem.git <my_project> 
+	rm -Rf <my_project>/.git
+
+После клонирования репозитория следует изменить название папки z_crm на название Вашего проекта в файлах Gruntfile и project.clj.
+
+Затем запустить разрешение зависимостей:
+
+	lein deps
+	npm install
 
 # Сборка проекта #
 
